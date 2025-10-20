@@ -1,0 +1,163 @@
+{
+  "patterns": [
+    {
+      "slug": "cpt-events",
+      "name": "Cpt Événements",
+      "description": "Enregistre le Custom Post Type « Events » pour gérer les événements d'hôtel.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Événementiel"
+      ],
+      "files": {
+        "php": "cpt-events.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-land",
+      "name": "Cpt Terrains",
+      "description": "Enregistre le Custom Post Type « Land » pour gérer les parcelles ou terrains.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Immobilier"
+      ],
+      "files": {
+        "php": "cpt-land.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-news",
+      "name": "Cpt Actualités",
+      "description": "Enregistre le Custom Post Type « News » pour publier les actualités de l'hôtel.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Communication"
+      ],
+      "files": {
+        "php": "cpt-news.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-offers",
+      "name": "Cpt Offres",
+      "description": "Enregistre le Custom Post Type « Offers » pour gérer les offres spéciales.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Marketing"
+      ],
+      "files": {
+        "php": "cpt-offers.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-portfolio",
+      "name": "Cpt Portfolio",
+      "description": "Enregistre le Custom Post Type « Portfolio » pour présenter les projets ou réalisations.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Réalisations"
+      ],
+      "files": {
+        "php": "cpt-portfolio.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-property",
+      "name": "Cpt Propriétés",
+      "description": "Enregistre le Custom Post Type « Property » pour gérer les propriétés immobilières.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Immobilier"
+      ],
+      "files": {
+        "php": "cpt-property.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-reviews",
+      "name": "Cpt Avis",
+      "description": "Enregistre le Custom Post Type « Reviews » pour gérer les avis clients.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Témoignages"
+      ],
+      "files": {
+        "php": "cpt-reviews.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-rooms",
+      "name": "Cpt Chambres",
+      "description": "Enregistre le Custom Post Type « Rooms » pour gérer les chambres d'hôtel.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Hébergement"
+      ],
+      "files": {
+        "php": "cpt-rooms.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "cpt-testimonials",
+      "name": "Cpt Témoignages",
+      "description": "Enregistre le Custom Post Type « Testimonials » pour gérer les témoignages.",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Témoignages"
+      ],
+      "files": {
+        "php": "cpt-testimonials.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
+      "slug": "tax-rooms",
+      "name": "Tax Rooms",
+      "description": "Taxonomies liées au Custom Post Type « Rooms ».",
+      "version": "1.0.0",
+      "categories": [
+        "Taxonomies"
+      ],
+      "files": {
+        "php": "tax-rooms.php"
+      },
+      "install": {
+        "php": "functions"
+      }
+    }
+  ]
+}
