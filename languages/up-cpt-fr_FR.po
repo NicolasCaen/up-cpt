@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: up-cpt 1.0.0\n"
+"POT-Creation-Date: 2025-10-20 00:00+0000\n"
+"PO-Revision-Date: 2025-10-20 00:00+0000\n"
+"Last-Translator: Nicolas Gehin <contact@nicolas-gehin.com>\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: inc/up-cpt/cpt-rooms.php:24
+msgctxt "Post type general name"
+msgid "Rooms"
+msgstr "Chambres"
+
+#: inc/up-cpt/cpt-rooms.php:25
+msgctxt "Post type singular name"
+msgid "Room"
+msgstr "Chambre"
+
+#: inc/up-cpt/cpt-rooms.php:26
+msgctxt "Admin Menu text"
+msgid "Rooms"
+msgstr "Chambres"
+
+#: inc/up-cpt/cpt-rooms.php:27
+msgctxt "Add New on Toolbar"
+msgid "Room"
+msgstr "Chambre"
+
+#: inc/up-cpt/cpt-rooms.php:28
+msgid "Add New"
+msgstr "Ajouter"
+
+#: inc/up-cpt/cpt-rooms.php:29
+msgid "Add New Room"
+msgstr "Ajouter une chambre"
+
+#: inc/up-cpt/cpt-rooms.php:30
+msgid "Edit Room"
+msgstr "Modifier la chambre"
+
+#: inc/up-cpt/cpt-rooms.php:31
+msgid "New Room"
+msgstr "Nouvelle chambre"
+
+#: inc/up-cpt/cpt-rooms.php:32
+msgid "View Room"
+msgstr "Voir la chambre"
+
+#: inc/up-cpt/cpt-rooms.php:33
+msgid "View Rooms"
+msgstr "Voir les chambres"
+
+#: inc/up-cpt/cpt-rooms.php:34
+msgid "Search Rooms"
+msgstr "Rechercher des chambres"
+
+#: inc/up-cpt/cpt-rooms.php:35
+msgid "No rooms found."
+msgstr "Aucune chambre trouvée."
+
+#: inc/up-cpt/cpt-rooms.php:36
+msgid "No rooms found in Trash."
+msgstr "Aucune chambre trouvée dans la corbeille."
+
+#: inc/up-cpt/cpt-rooms.php:37
+msgid "All Rooms"
+msgstr "Toutes les chambres"
+
+#: inc/up-cpt/cpt-rooms.php:38
+msgid "Room Archives"
+msgstr "Archives des chambres"
+
+#: inc/up-cpt/cpt-rooms.php:39
+msgid "Room Attributes"
+msgstr "Attributs de chambre"
+
+#: inc/up-cpt/tax-rooms.php:25
+msgctxt "taxonomy general name"
+msgid "Room Categories"
+msgstr "Catégories de chambres"
+
+#: inc/up-cpt/tax-rooms.php:26
+msgctxt "taxonomy singular name"
+msgid "Room Category"
+msgstr "Catégorie de chambre"
+
+#: inc/up-cpt/tax-rooms.php:27
+msgid "Search Room Categories"
+msgstr "Rechercher des catégories de chambres"
+
+#: inc/up-cpt/tax-rooms.php:28
+msgid "All Room Categories"
+msgstr "Toutes les catégories de chambres"
+
+#: inc/up-cpt/tax-rooms.php:29
+msgid "Parent Room Category"
+msgstr "Catégorie de chambre parente"
+
+#: inc/up-cpt/tax-rooms.php:30
+msgid "Parent Room Category:"
+msgstr "Catégorie de chambre parente :"
+
+#: inc/up-cpt/tax-rooms.php:31
+msgid "Edit Room Category"
+msgstr "Modifier la catégorie de chambre"
+
+#: inc/up-cpt/tax-rooms.php:32
+msgid "Update Room Category"
+msgstr "Mettre à jour la catégorie de chambre"
+
+#: inc/up-cpt/tax-rooms.php:33
+msgid "Add New Room Category"
+msgstr "Ajouter une nouvelle catégorie de chambre"
+
+#: inc/up-cpt/tax-rooms.php:34
+msgid "New Room Category Name"
+msgstr "Nom de la nouvelle catégorie de chambre"
+
+#: inc/up-cpt/tax-rooms.php:35
+msgid "Room Categories"
+msgstr "Catégories de chambres"
+
+#: inc/up-cpt/tax-rooms.php:57
+msgctxt "taxonomy general name"
+msgid "Room Features"
+msgstr "Équipements de chambre"
+
+#: inc/up-cpt/tax-rooms.php:58
+msgctxt "taxonomy singular name"
+msgid "Room Feature"
+msgstr "Équipement de chambre"
+
+#: inc/up-cpt/tax-rooms.php:59
+msgid "Search Room Features"
+msgstr "Rechercher des équipements de chambre"
+
+#: inc/up-cpt/tax-rooms.php:60
+msgid "Popular Room Features"
+msgstr "Équipements de chambre populaires"
+
+#: inc/up-cpt/tax-rooms.php:61
+msgid "All Room Features"
+msgstr "Tous les équipements de chambre"
+
+#: inc/up-cpt/tax-rooms.php:62
+msgid "Edit Room Feature"
+msgstr "Modifier l’équipement de chambre"
+
+#: inc/up-cpt/tax-rooms.php:63
+msgid "Update Room Feature"
+msgstr "Mettre à jour l’équipement de chambre"
+
+#: inc/up-cpt/tax-rooms.php:64
+msgid "Add New Room Feature"
+msgstr "Ajouter un nouvel équipement de chambre"
+
+#: inc/up-cpt/tax-rooms.php:65
+msgid "New Room Feature Name"
+msgstr "Nom du nouvel équipement de chambre"
+
+#: inc/up-cpt/tax-rooms.php:66
+msgid "Separate room features with commas"
+msgstr "Séparez les équipements de chambre avec des virgules"
+
+#: inc/up-cpt/tax-rooms.php:67
+msgid "Add or remove room features"
+msgstr "Ajouter ou supprimer des équipements de chambre"
+
+#: inc/up-cpt/tax-rooms.php:68
+msgid "Choose from the most used room features"
+msgstr "Choisir parmi les équipements de chambre les plus utilisés"
+
+#: inc/up-cpt/tax-rooms.php:69
+msgid "Room Features"
+msgstr "Équipements de chambre"
