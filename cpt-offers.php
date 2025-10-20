@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « Offers » pour gérer les offres spéciales.
- * Version : 1.0.0
+ * Slug: cpt-offers
+ * Nom: Cpt Offres
+ * Description: Enregistre le Custom Post Type « Offers » pour gérer les offres spéciales.
+ * Version: 1.0.0
+ * Catégories: CPT, Marketing
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {

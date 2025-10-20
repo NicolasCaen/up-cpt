@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « Events » pour gérer les événements d'hôtel.
- * Version : 1.0.0
+ * Slug: cpt-events
+ * Nom: Cpt Événements
+ * Description: Enregistre le Custom Post Type « Events » pour gérer les événements d'hôtel.
+ * Version: 1.0.0
+ * Catégories: CPT, Événementiel
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {

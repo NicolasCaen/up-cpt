@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « News » pour publier les actualités de l'hôtel.
- * Version : 1.0.0
+ * Slug: cpt-news
+ * Nom: Cpt Actualités
+ * Description: Enregistre le Custom Post Type « News » pour publier les actualités de l'hôtel.
+ * Version: 1.0.0
+ * Catégories: CPT, Communication
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {

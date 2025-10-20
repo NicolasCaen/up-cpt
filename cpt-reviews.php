@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « Reviews » pour gérer les avis clients.
- * Version : 1.0.0
+ * Slug: cpt-reviews
+ * Nom: Cpt Avis
+ * Description: Enregistre le Custom Post Type « Reviews » pour gérer les avis clients.
+ * Version: 1.0.0
+ * Catégories: CPT, Témoignages
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {

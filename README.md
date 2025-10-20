@@ -16,6 +16,13 @@ Sous-module contenant les Custom Post Types et taxonomies standards utilisés po
 - Filtres disponibles pour personnaliser slug et arguments :
   - `up_cpt_{posttype}_slug`, `up_cpt_{posttype}_args`, `up_cpt_{posttype}_{slug}_args`.
   - `up_tax_rooms_category_slug`, `up_tax_rooms_feature_slug`, etc.
+- Chaque fichier doit disposer d’un bloc PHPDoc décrivant `Catégorie`, `Description`, `Version` pour alimenter le manifest.
+
+## Manifest & génération
+
+- Copier `../manifest_build_sample.py` en `build_manifest.py` dans ce sous-module.
+- Lancer `python3 build_manifest.py --output manifest.json` pour générer le manifest spécifique au dépôt `up-cpt`.
+- Chaque fichier `cpt-*.php` / `tax-*.php` doit posséder un bloc PHPDoc avec les clés : `Slug`, `Nom`, `Description`, `Version`, `Catégories`, `Type`, `Files`, `Install`, `Preview` (voir README parent pour le détail du format).
 
 ## Traductions
 

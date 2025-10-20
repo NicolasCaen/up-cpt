@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « Testimonials » pour gérer les témoignages.
- * Version : 1.0.0
+ * Slug: cpt-testimonials
+ * Nom: Cpt Témoignages
+ * Description: Enregistre le Custom Post Type « Testimonials » pour gérer les témoignages.
+ * Version: 1.0.0
+ * Catégories: CPT, Témoignages
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {

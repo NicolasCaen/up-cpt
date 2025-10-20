@@ -1,9 +1,13 @@
 <?php
 
 /**
- * Catégorie : CPT
- * Description : Enregistre le Custom Post Type « Portfolio » pour présenter les projets ou réalisations.
- * Version : 1.0.0
+ * Slug: cpt-portfolio
+ * Nom: Cpt Portfolio
+ * Description: Enregistre le Custom Post Type « Portfolio » pour présenter les projets ou réalisations.
+ * Version: 1.0.0
+ * Catégories: CPT, Réalisations
+ * Type: php
+ * Install: php=functions/cpt
  */
 
 add_action( 'plugins_loaded', function () {
