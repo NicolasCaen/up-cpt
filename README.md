@@ -1,5 +1,7 @@
 # up-cpt
 
+- Current version: 1.0.0
+
 Sous-module contenant les Custom Post Types et taxonomies standards utilisés pour les projets hôteliers.
 
 ## Arborescence
