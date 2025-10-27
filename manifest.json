@@ -81,6 +81,22 @@
       }
     },
     {
+      "slug": "cpt-projet",
+      "name": "Cpt Projet",
+      "description": "Enregistre le Custom Post Type « Projet » avec une archive et le slug de base « projets ».",
+      "version": "1.0.0",
+      "categories": [
+        "CPT",
+        "Réalisations"
+      ],
+      "files": {
+        "php": "cpt-projet.php"
+      },
+      "install": {
+        "php": "functions/cpt"
+      }
+    },
+    {
       "slug": "cpt-property",
       "name": "Cpt Propriétés",
       "description": "Enregistre le Custom Post Type « Property » pour gérer les propriétés immobilières.",
@@ -139,22 +155,6 @@
       ],
       "files": {
         "php": "cpt-testimonials.php"
-      },
-      "install": {
-        "php": "functions/cpt"
-      }
-    },
-    {
-      "slug": "cpt-projet",
-      "name": "Cpt Projet",
-      "description": "Enregistre le Custom Post Type « Projet » avec une archive et le slug de base « projets ».",
-      "version": "1.0.0",
-      "categories": [
-        "CPT",
-        "Réalisations"
-      ],
-      "files": {
-        "php": "cpt-projet.php"
       },
       "install": {
         "php": "functions/cpt"
