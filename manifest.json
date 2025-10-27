@@ -81,16 +81,16 @@
       }
     },
     {
-      "slug": "cpt-projet",
-      "name": "Cpt Projet",
-      "description": "Enregistre le Custom Post Type « Projet » avec une archive et le slug de base « projets ».",
-      "version": "1.0.0",
+      "slug": "cpt-projects",
+      "name": "Cpt Projects",
+      "description": "Enregistre le Custom Post Type « Projects » pour gérer les offres spéciales.",
+      "version": "1.0.1",
       "categories": [
         "CPT",
-        "Réalisations"
+        "projet"
       ],
       "files": {
-        "php": "cpt-projet.php"
+        "php": "cpt-projects.php"
       },
       "install": {
         "php": "functions/cpt"
@@ -172,7 +172,22 @@
         "php": "tax-rooms.php"
       },
       "install": {
-        "php": "functions"
+        "php": "functions/taxonomy"
+      }
+    },
+    {
+      "slug": "tax-type",
+      "name": "Tax Type",
+      "description": "Taxonomie générique « Type » attachée au CPT « Projects ».",
+      "version": "1.0.0",
+      "categories": [
+        "Taxonomies"
+      ],
+      "files": {
+        "php": "tax-type.php"
+      },
+      "install": {
+        "php": "functions/taxonomy"
       }
     }
   ]
