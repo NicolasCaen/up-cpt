@@ -172,7 +172,7 @@
         "php": "tax-rooms.php"
       },
       "install": {
-        "php": "functions"
+        "php": "functions/taxonomy"
       }
     },
     {
@@ -187,7 +187,7 @@
         "php": "tax-type.php"
       },
       "install": {
-        "php": "functions"
+        "php": "functions/taxonomy"
       }
     }
   ]
