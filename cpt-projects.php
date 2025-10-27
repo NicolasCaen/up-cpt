@@ -5,7 +5,7 @@
  * Nom: Cpt Projects
  * Description: Enregistre le Custom Post Type « Projects » pour gérer les offres spéciales.
  * Version: 1.0.1
- * Catégories: CPT, Architecture
+ * Catégories: CPT, projet
  * Type: php
  * Install: php=functions/cpt
  */
@@ -41,7 +41,7 @@ add_action( 'init', function () {
     );
 
     $default_slug = 'projets';
-    $slug = apply_filters( 'up_cpt_Projects_slug', $default_slug );
+    $slug = apply_filters( 'up_cpt_projects_slug', $default_slug );
 
     $args = array(
         'labels'             => $labels,
@@ -55,9 +55,9 @@ add_action( 'init', function () {
         'menu_icon'          => 'dashicons-megaphone',
     );
 
-    $args = apply_filters( 'up_cpt_Projects_args', $args );
-    $args = apply_filters( 'up_cpt_Projects_' . $args['rewrite']['slug'] . '_args', $args );
-    $args = apply_filters( 'up_cpt_Projects_' . $args['rewrite']['slug'], $args );
+    $args = apply_filters( 'up_cpt_projects_args', $args );
+    $args = apply_filters( 'up_cpt_projects_' . $args['rewrite']['slug'] . '_args', $args );
+    $args = apply_filters( 'up_cpt_projects_' . $args['rewrite']['slug'], $args );
 
-    register_post_type( 'Projects', $args );
+    register_post_type( 'projects', $args );
 } );

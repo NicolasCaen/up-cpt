@@ -87,7 +87,7 @@
       "version": "1.0.1",
       "categories": [
         "CPT",
-        "Architecture"
+        "projet"
       ],
       "files": {
         "php": "cpt-projects.php"
