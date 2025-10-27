@@ -84,7 +84,7 @@
       "slug": "cpt-projects",
       "name": "Cpt Projects",
       "description": "Enregistre le Custom Post Type « Projects » pour gérer les offres spéciales.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "categories": [
         "CPT",
         "Architecture"
