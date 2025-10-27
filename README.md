@@ -2,6 +2,10 @@
 
 Sous-module contenant les Custom Post Types et taxonomies standards utilisés pour les projets hôteliers.
 
+## VERSION 1.0.1
+
+AJOUT DU CPT PROJET
+
 ## Arborescence
 
 - **[CPT]** `cpt-rooms.php`, `cpt-events.php`, `cpt-offers.php`, `cpt-reviews.php`, `cpt-testimonials.php`, `cpt-portfolio.php`, `cpt-news.php`, `cpt-land.php`, `cpt-property.php`.

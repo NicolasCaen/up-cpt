@@ -4,7 +4,7 @@
  * Slug: cpt-projects
  * Nom: Cpt Projects
  * Description: Enregistre le Custom Post Type « Projects » pour gérer les offres spéciales.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Catégories: CPT, Architecture
  * Type: php
  * Install: php=functions/cpt
