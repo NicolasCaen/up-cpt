@@ -4,6 +4,8 @@
  * Catégorie : Taxonomies
  * Description : Taxonomie générique « Type » attachée au CPT « Projects ».
  * Version : 1.0.0
+ * Type: php
+ * Install: php=functions/taxonomy
  */
 
 add_action( 'plugins_loaded', function () {

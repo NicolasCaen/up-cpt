@@ -4,6 +4,9 @@
  * Catégorie : Taxonomies
  * Description : Taxonomies liées au Custom Post Type « Rooms ».
  * Version : 1.0.0
+ * Type: php
+ * Install: php=functions/taxonomy
+ * 
  */
 
 add_action( 'plugins_loaded', function () {
